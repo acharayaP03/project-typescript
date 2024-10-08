@@ -1,13 +1,8 @@
-import { CsvReader } from "./FileReader/CsvReader.ts";
+import { MatchReader } from "./FileReader/MatchReader.ts";
+import { MatchResult } from "./typings/index.ts";
 
-const csvReader = new CsvReader("football.csv");
+const csvReader = new MatchReader("football.csv");
 csvReader.read();
-
-enum MatchResult {
-  HomeWin = "H",
-  AwayWin = "A",
-  Draw = "D",
-}
 
 // let manUnitedWins = 0;
 
