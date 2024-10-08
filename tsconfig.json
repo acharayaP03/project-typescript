@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "module": "ES2015",
+    "module": "NodeNext",
     "target": "ES6",
     "outDir": "./build",
     "rootDir": "./src",
     "esModuleInterop": true,
     "lib": ["ES2015", "DOM"],
-    "moduleResolution": "Bundler",
+    "moduleResolution": "NodeNext",
     "baseUrl": "*",
     "emitDeclarationOnly": true,
     "allowImportingTsExtensions": true,

@@ -1,6 +1,6 @@
-import { CharactersCollection } from "../CharactersCollection";
-import { NumberCollection } from "../NumberCollection";
-import { LinkedList } from "./LinkedList";
+import { CharactersCollection } from "../CharactersCollection.ts";
+import { NumberCollection } from "../NumberCollection.ts";
+import { LinkedList } from "./LinkedList.ts";
 
 interface Sortable {
   length: number;
